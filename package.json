@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "apphosting:build": "apphosting-adapter-angular-build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:angular-20-app": "node dist/angular-20-app/server/server.mjs"
@@ -19,6 +20,7 @@
     "@angular/platform-server": "^20.0.0",
     "@angular/router": "^20.0.0",
     "@angular/ssr": "^20.0.0",
+    "@apphosting/adapter-angular": "^17.2.15",
     "express": "^5.1.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
